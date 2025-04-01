@@ -1,0 +1,17 @@
+/* Estilos principais */
+.header {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+}
+
+.section {
+    display: flex;
+    gap: 20px;
+}
+
+.section a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}

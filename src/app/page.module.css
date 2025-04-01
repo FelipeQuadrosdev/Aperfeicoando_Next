@@ -1,0 +1,28 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: cal(100vh - 10px);
+
+}
+
+.section {
+  background-color: blueviolet;
+  height: 90%;
+  width: 200px;
+}
+
+.section {
+  transform-origin: left center;
+
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  overflow: hidden;
+
+}
+
+.hidden {
+  transform: scaleX(0);
+  opacity: 0;
+
+}
